@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<xfMap>
+ <feature-map multi-feature-construction="false">
+    <mapping match="side/objekter/vegobjekt
+	     vegobjekt">
+           <feature-type> <literal expr="vegobjekt"/> </feature-type>
+    </mapping>
+ </feature-map>
+ <feature-content-map>
+ 
+	<!-- Generic, beautiful treatment of a dynamic list of properties 
+	 The "Egenskaper" element, that has  1 to N members
+	 
+	 Two sample values to really demonstrate how this mapping works:
+	<egenskap>
+		<definisjon uri="/datakatalog/egenskapstype/1313"/>
+		<enhet kortNavn="m" navn="Meter" id="1"/>
+		<id>1313</id>
+		<navn>Lengde</navn>
+		<verdi>103.0</verdi>
+	</egenskap>
+	<egenskap>
+		<enumVerdi>
+			<id>7304</id>
+			<kortVerdi>VB</kortVerdi>
+			<verdi>Vegbru</verdi>
+		</enumVerdi>
+		<id>1263</id>
+		<navn>Brukategori</navn>
+		<verdi>Vegbru</verdi>
+	</egenskap>
+	Note how the ENUM-specification is redundant, unless you explisitely want to deal with it. 
+	-->
+
+    <mapping match="egenskaper/egenskap">
+       <attributes>
+          <attribute>
+             <name>   <extract expr="./navn"/> </name>
+             <value>  <extract expr="./verdi"/>  </value>
+          </attribute>      
+       </attributes>
+    </mapping>
+
+
+<!-- Reading NVDB objekt ID and renaming it to nvdbId to avoid name collision --> 
+	<mapping match="vegobjekt/id"> 
+	    <attributes>
+           <attribute>
+              <name>   <literal expr="nvdbId"/> </name>
+              <value>  <extract expr="."/>  </value>
+           </attribute>       
+        </attributes>
+	</mapping>
+ 
+ 
+
+<!-- Reading metadata ID, somewhat tricky because of name clash with objekt ID --> 
+	<mapping match="vegobjekt/metadata/type/id"> 
+	    <attributes>
+           <attribute>
+              <name>   <literal expr="objektTypeId"/> </name>
+              <value>  <extract expr="."/>  </value>
+           </attribute>       
+        </attributes>
+	</mapping>
+
+
+	<mapping match="vegobjekt/metadata/type/navn"> 
+	    <attributes>
+           <attribute>
+              <name>   <literal expr="objektTypeNavn"/> </name>
+              <value>  <extract expr="."/>  </value>
+           </attribute>       
+        </attributes>
+	</mapping>
+
+	
+	<!-- Geometry as WKT into attribute --> 
+	<mapping match="vegobjekt/geometri/wkt 
+	                vegobjekt/geometri/srid 
+	                vegobjekt/geometri/egengeometri"> 
+	    <attributes>
+           <attribute>
+              <name>   <matched expr="local-name"/> </name>
+              <value>  <extract expr="."/>  </value>
+           </attribute>       
+        </attributes>
+	</mapping>
+
+	
+	
+	<!-- 
+	Matching some straightforward elements 
+	These all have the <local-name>Value</local-name>  structure
+	--> 
+
+	 <mapping match="
+	   vegobjekt/lokasjon/strekningslengde
+	   vegobjekt/metadata/versjon 
+	   vegobjekt/metadata/sist_modifisert 
+	   vegobjekt/metadata/startdato
+	   vegobjekt/metadata/sluttdato
+	   vegobjekt/href
+	   ">
+        <attributes>
+           <attribute>
+              <name>   <matched expr="local-name"/> </name>
+              <value>  <extract expr="."/>  </value>
+           </attribute>       
+        </attributes>
+     </mapping>  
+
+		
+	<!-- Some location attributes are lists --> 
+    <mapping match="lokasjon/kontraktsomrader/kontraktsomrade 
+					lokasjon/riksvegruter/riksvegrute
+					lokasjon/kommuner/kommune
+					lokasjon/vegavdelinger/vegavdelinger/vegavdeling
+					lokasjon/regioner/region
+					lokasjon/fylker/fylke">
+       <attributes>
+          <attribute type="list">
+             <name>   <matched expr="local-name"/> </name>
+             <value>  <extract expr="."/>  </value>
+          </attribute>
+       </attributes>
+    </mapping>
+
+
+   <!-- Reading objekt.vegsegmenter into a FME list -->
+   <mapping match="vegsegmenter">
+       <feature-type><literal expr="vegsegmenter"/></feature-type>>
+        <structure/>
+   </mapping> 
+
+	
+	
+	
+	
+	<!-- Relationships to other objects (relasjoner) 
+	
+	Relasjon fra dette vegobjektet -> eventuelle barn
+	
+	-->
+	
+    <mapping match="relasjoner/barn/barn">
+       <attributes>
+          <attribute type="list">
+             <name>   <literal expr="barn{}.barn_id"/> </name>
+             <value>  <extract expr="./vegobjekter/id"/>  </value>
+          </attribute>
+
+
+          <attribute type="list">
+             <name>   <literal expr="barn{}.barn_typeid"/> </name>
+             <value>  <extract expr="./type/id"/>  </value>
+          </attribute>
+
+          <attribute type="list">
+             <name>   <literal expr="barn{}.barn_typenavn"/> </name>
+             <value>  <extract expr="./type/navn"/>  </value>
+          </attribute>
+	  
+	</attributes>
+    </mapping>
+
+<!-- Relasjon fra dette vegobjektet -> eventuelle forelder (evt foreldre). 
+   Strengt tatt skal det kun være 1 forelder, men med NVDB vet man aldri helt... )
+	
+-->
+
+    <mapping match="relasjoner/foreldre/forelder">
+       <attributes>
+          <attribute type="list">
+             <name>   <literal expr="forelder{}.forelder_id"/> </name>
+             <value>  <extract expr="./vegobjekter/id"/>  </value>
+          </attribute>
+
+
+          <attribute type="list">
+             <name>   <literal expr="forelder{}.forelder_typeid"/> </name>
+             <value>  <extract expr="./type/id"/>  </value>
+          </attribute>
+
+          <attribute type="list">
+             <name>   <literal expr="forelder{}.forelder_typenavn"/> </name>
+             <value>  <extract expr="./type/navn"/>  </value>
+          </attribute>
+	  
+	</attributes>
+    </mapping>
+    
+    
+    
+<!-- -->
+ 
+<!-- Explisitely giving the features geometry in a separate chain of transformers 
+	(CoordinateSystemSetter+geometryReplacer). It really should be very 
+	straightforward to implement this as part of the standard XMLFeatureReader-process 
+	(at least according to the docs), but right now I can't be bothered to 
+	find out why it doesn't work for me 
+	
+	vegobjekt/geometri/srid vegobjekt/geometri/egengeometri
+	
+	--> 
+	
+
+
+ </feature-content-map>	  
+
+
+
+ 
+</xfMap>
+
+
