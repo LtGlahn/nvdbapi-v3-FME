@@ -12,8 +12,8 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="8358.16 3905.06"
-#!   DOC_TOP_LEFT="-1175.09 -4353.98"
+#!   DOC_EXTENTS="8820.05 4227.3"
+#!   DOC_TOP_LEFT="-1636.99 -4353.98"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
@@ -28,7 +28,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2020.1.2.1 (20200909 - Build 20624 - WIN64)"
-#!   LAST_SAVE_DATE="2021-11-15T20:41:38"
+#!   LAST_SAVE_DATE="2021-11-16T10:55:59"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -47,10 +47,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1818.84 -990.178"
+#!   VIEW_POSITION="1030.05 104.162"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="89"
+#!   ZOOM_SCALE="81"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -92,11 +92,11 @@
 #! />
 #! <COMMENT
 #!   IDENTIFIER="28"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Explisit define the attributes! &lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Must be tuned to your object type definition!&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;(Just ignore the properties you don&apos;t need)&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="2883.7061250612505 -1306.8915623974419"
-#!   TOP_LEFT="2883.7061250612505 -1306.8915623974419"
-#!   BOTTOM_RIGHT="2883.7061250612505 -1305.8915623974419"
-#!   BOUNDING_RECT="2883.7061250612505 -1306.8915623974419 0 -1"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Explisit define the attributes! &lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Must be tuned to your object type definition!&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;http://datakatalogen.vegdata.no&quot;&gt;&lt;span style=&quot; font-size:8.25pt; text-decoration: underline;&quot;&gt;http://datakatalogen.vegdata.no&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;  &lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;(Just ignore the properties you don&apos;t need)&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3693.8556084764996 -707.02018749005674"
+#!   TOP_LEFT="3693.8556084764996 -707.02018749005674"
+#!   BOTTOM_RIGHT="4552.2685258571146 -924.52206250880693"
+#!   BOUNDING_RECT="3693.8556084764996 -707.02018749005674 858.412917380615 217.50187501875018"
 #!   ORDER="500000000000000"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -121,21 +121,6 @@
 #!   ANCHORED_NODE="39"
 #! />
 #! <COMMENT
-#!   IDENTIFIER="43"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Områdefilter&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;kommune=4023&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Arendal&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-347.90943133506835 -1790.9461292823039"
-#!   TOP_LEFT="-347.90943133506835 -1790.9461292823039"
-#!   BOTTOM_RIGHT="-32.281775058505559 -1967.8225980469915"
-#!   BOUNDING_RECT="-347.90943133506835 -1790.9461292823039 315.62765627656279 176.87646876468764"
-#!   ORDER="500000000000000"
-#!   FOLLOW_ANCHOR="true"
-#!   INFO_NODE="false"
-#!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.80000000000000004,0.80000000000000004,0.80000000000000004,0.39215686274509803"
-#!   SIZE_POLICY="8"
-#!   ANCHORED_NODE="37"
-#! />
-#! <COMMENT
 #!   IDENTIFIER="61"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Kun objekter med gyldig stedfesting&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;(F.eks. ingen historiske bruer)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   POSITION="1951.0632887153388 -2427.2915175716616"
@@ -153,10 +138,10 @@
 #! <COMMENT
 #!   IDENTIFIER="76"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Søk etter dagens data&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="559.56986467915851 -851.94906623090742"
-#!   TOP_LEFT="559.56986467915851 -851.94906623090742"
-#!   BOTTOM_RIGHT="968.94845846509634 -947.57472248747001"
-#!   BOUNDING_RECT="559.56986467915851 -851.94906623090742 409.37859378593782 95.625656256562564"
+#!   POSITION="7.8966450202027545 -126.67238584011295"
+#!   TOP_LEFT="7.8966450202027545 -126.67238584011295"
+#!   BOTTOM_RIGHT="417.27523880614058 -222.29804209667552"
+#!   BOUNDING_RECT="7.8966450202027545 -126.67238584011295 409.37859378593782 95.625656256562564"
 #!   ORDER="500000000000000"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -181,10 +166,10 @@
 #! <COMMENT
 #!   IDENTIFIER="106"
 #!   COMMENT_VALUE="&lt;b&gt;AttributeCreator_8&amp;nbsp;[AttributeCreator]&lt;/b&gt;&lt;br&gt;Attributes&amp;nbsp;To&amp;nbsp;Create:&lt;table border=0 cellspacing=0&gt;&lt;tr&gt;&lt;td valign=middle&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;table border=1 cellspacing=0 cellpadding=2&gt;&lt;tr&gt;&lt;td&gt;New&amp;nbsp;Attribute&lt;/td&gt;&lt;td&gt;Attribute&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;tidspunkt&lt;/td&gt;&lt;td&gt;2019-04-01&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
-#!   POSITION="481.57098969040851 -1694.0701605226163"
-#!   TOP_LEFT="481.57098969040851 -1694.0701605226163"
-#!   BOTTOM_RIGHT="1300.3286772672841 -1693.0701605226163"
-#!   BOUNDING_RECT="481.57098969040851 -1694.0701605226163 818.7576875768757 -1"
+#!   POSITION="-154.97503299300195 -984.17495732724171"
+#!   TOP_LEFT="-154.97503299300195 -984.17495732724171"
+#!   BOTTOM_RIGHT="663.78265458387375 -983.17495732724171"
+#!   BOUNDING_RECT="-154.97503299300195 -984.17495732724171 818.7576875768757 -1"
 #!   ORDER="500000000000068"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="true"
@@ -193,16 +178,16 @@
 #! />
 #! <COMMENT
 #!   IDENTIFIER="107"
-#!   COMMENT_VALUE="&lt;b&gt;AttributeCreator_7&amp;nbsp;[AttributeCreator]&lt;/b&gt;&lt;br&gt;Attributes&amp;nbsp;To&amp;nbsp;Set:&lt;table border=0 cellspacing=0&gt;&lt;tr&gt;&lt;td valign=middle&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;table border=1 cellspacing=0 cellpadding=2&gt;&lt;tr&gt;&lt;td&gt;Attribute&amp;nbsp;Name&lt;/td&gt;&lt;td&gt;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;vegobjektURI&lt;/td&gt;&lt;td&gt;@Value(vegobjektURI)&amp;amp;@Value(omradefilter)&amp;amp;tidspunkt=@Value(tidspunkt)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
-#!   POSITION="-107.76619435558928 -2543.2346397449369"
-#!   TOP_LEFT="-107.76619435558928 -2543.2346397449369"
-#!   BOTTOM_RIGHT="1636.0007433137873 -2542.2346397449369"
-#!   BOUNDING_RECT="-107.76619435558928 -2543.2346397449369 1743.7669376693766 -1"
-#!   ORDER="500000000000069"
+#!   COMMENT_VALUE="&lt;b&gt;AttributeCreator_3&amp;nbsp;[AttributeCreator]&lt;/b&gt;&lt;br&gt;Attributes&amp;nbsp;To&amp;nbsp;Set:&lt;table border=0 cellspacing=0&gt;&lt;tr&gt;&lt;td valign=middle&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;table border=1 cellspacing=0 cellpadding=2&gt;&lt;tr&gt;&lt;td&gt;Attribute&amp;nbsp;Name&lt;/td&gt;&lt;td&gt;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;omradefilter&lt;/td&gt;&lt;td&gt;kommune=4203&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
+#!   POSITION="-1636.9906509940245 -1292.9273948516168"
+#!   TOP_LEFT="-1636.9906509940245 -1292.9273948516168"
+#!   BOTTOM_RIGHT="-818.23296341714877 -1291.9273948516168"
+#!   BOUNDING_RECT="-1636.9906509940245 -1292.9273948516168 818.7576875768757 -1"
+#!   ORDER="500000000000070"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="true"
 #!   CUSTOM_USER_COLOR="false"
-#!   ANCHORED_NODE="73"
+#!   ANCHORED_NODE="37"
 #! />
 #! </COMMENTS>
 #! <CONSTANTS>
@@ -226,25 +211,25 @@
 #!   IDENTIFIER="51"
 #!   NAME="Filter for område, egenskap etc"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="-1085.3174313350687 -1361.7311917911106"
+#!   TOP_LEFT="-1636.9906509940245 -636.45451140031616"
 #!   ORDER="500000000000058"
 #!   PALETTE_COLOR=""
-#!   BOTTOM_RIGHT="211.47016246086923 -2124.3189959989481"
-#!   BOUNDING_RECT="-1085.3174313350687 -1361.7311917911106 1296.7875937959379 762.58780420783762"
+#!   BOTTOM_RIGHT="-340.20305719808653 -1624.156821513428"
+#!   BOUNDING_RECT="-1636.9906509940245 -636.45451140031616 1296.7875937959379 987.70231011311182"
 #!   STICKY="true"
 #!   COLOUR="0.80000000000000004,0.80000000000000004,0.80000000000000004,0.39215686274509803"
-#!   CONTENTS="43 37 20 45 "
+#!   CONTENTS="37 107 20 45 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="91"
 #!   NAME="Historiske søk - sett tidspunkt=DATO"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="393.57098969040851 -1594.1170647661529"
+#!   TOP_LEFT="-242.97503299300195 -888.12965779000717"
 #!   ORDER="500000000000064"
 #!   PALETTE_COLOR="Color4"
-#!   BOTTOM_RIGHT="1338.5881752140303 -2486.711613903442"
-#!   BOUNDING_RECT="393.57098969040851 -1594.1170647661529 945.01718552362172 892.59454913728905"
+#!   BOTTOM_RIGHT="702.04215253061977 -1780.7242069272961"
+#!   BOUNDING_RECT="-242.97503299300195 -888.12965779000717 945.01718552362172 892.59454913728905"
 #!   STICKY="true"
 #!   COLOUR="0.85098039215686272,0.92941176470588238,0.60392156862745094,1"
 #!   CONTENTS="106 92 73 93 "
@@ -313,8 +298,8 @@
 #!   IDENTIFIER="25"
 #!   TYPE="Creator"
 #!   VERSION="5"
-#!   POSITION="-1175.0941350109817 -729.70239959307662"
-#!   BOUNDING_RECT="-1175.0941350109817 -729.70239959307662 430 71"
+#!   POSITION="-1504.9896509940245 -316.9119485195925"
+#!   BOUNDING_RECT="-1504.9896509940245 -316.9119485195925 430 71"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -379,8 +364,8 @@
 #!   IDENTIFIER="20"
 #!   TYPE="AttributeCreator"
 #!   VERSION="4"
-#!   POSITION="-953.81643133506873 -1471.7311917911104"
-#!   BOUNDING_RECT="-953.81643133506873 -1471.7311917911104 430 71"
+#!   POSITION="-1505.4896509940245 -746.45451140031594"
+#!   BOUNDING_RECT="-1505.4896509940245 -746.45451140031594 430 71"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -404,8 +389,8 @@
 #!   IDENTIFIER="54"
 #!   TYPE="Inspector"
 #!   VERSION="3"
-#!   POSITION="2621.7160626588084 -448.91781237812359"
-#!   BOUNDING_RECT="2621.7160626588084 -448.91781237812359 431 71"
+#!   POSITION="1348.6240172919884 -441.20210301226399"
+#!   BOUNDING_RECT="1348.6240172919884 -441.20210301226399 431 71"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="false"
@@ -432,8 +417,8 @@
 #!   IDENTIFIER="58"
 #!   TYPE="SubDocumentTransformer"
 #!   VERSION="1"
-#!   POSITION="1982.4088751414788 -673.52206250880693"
-#!   BOUNDING_RECT="1982.4088751414788 -673.52206250880693 431 71"
+#!   POSITION="1241.7007760189658 -800.83126704548897"
+#!   BOUNDING_RECT="1241.7007760189658 -800.83126704548897 431 71"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -840,8 +825,8 @@
 #!   IDENTIFIER="37"
 #!   TYPE="AttributeCreator"
 #!   VERSION="7"
-#!   POSITION="-954.31643133506873 -1790.9461292823039"
-#!   BOUNDING_RECT="-954.31643133506873 -1790.9461292823039 431 71"
+#!   POSITION="-1505.9896509940245 -1065.6694488915086"
+#!   BOUNDING_RECT="-1505.9896509940245 -1065.6694488915086 431 71"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -997,8 +982,8 @@
 #!   IDENTIFIER="57"
 #!   TYPE="AttributeCreator"
 #!   VERSION="7"
-#!   POSITION="481.57098969040851 -982.57472248747013"
-#!   BOUNDING_RECT="481.57098969040851 -982.57472248747013 431 71"
+#!   POSITION="-70.102229968547249 -257.29804209667566"
+#!   BOUNDING_RECT="-70.102229968547249 -257.29804209667566 431 71"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1278,7 +1263,7 @@
 #!     <XFORM_ATTR ATTR_NAME="vegsegmenter{}.segment{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; koordsys SET_TO epsg:&lt;at&gt;Value&lt;openparen&gt;srid&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; koordsys SET_TO EPSG:&lt;at&gt;Value&lt;openparen&gt;srid&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1291,8 +1276,8 @@
 #!   IDENTIFIER="73"
 #!   TYPE="AttributeCreator"
 #!   VERSION="7"
-#!   POSITION="502.57098969040851 -2226.9808272068117"
-#!   BOUNDING_RECT="502.57098969040851 -2226.9808272068117 431 71"
+#!   POSITION="-133.97503299300195 -1520.9934202306656"
+#!   BOUNDING_RECT="-133.97503299300195 -1520.9934202306656 431 71"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1319,8 +1304,8 @@
 #!   IDENTIFIER="92"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
-#!   POSITION="481.57098969040851 -1998.9148018277629"
-#!   BOUNDING_RECT="481.57098969040851 -1998.9148018277629 454 71"
+#!   POSITION="-154.97503299300195 -1292.9273948516168"
+#!   BOUNDING_RECT="-154.97503299300195 -1292.9273948516168 454 71"
 #!   ORDER="500000000000063"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2631,7 +2616,7 @@ MACRO $(loop_fetchdata_WORKSPACE_NAME)_SUB_DOC_NAME loop_fetchdata
 MACRO $(loop_fetchdata_WORKSPACE_NAME)_VEGOBJEKTURI <at>Value<openparen>vegobjektURI<closeparen>
 DEFAULT_MACRO loop_fetchdata_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(loop_fetchdata_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(loop_fetchdata_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_Input1637005298 Input Splitter"   INPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_Input"   OUTPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV_TYPED,vegobjektURI,$($(loop_fetchdata_WORKSPACE_NAME)_VEGOBJEKTURI),UTF8, FEATURE_TYPE)"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_Input1637056559 Input Splitter"   INPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_Input"   OUTPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV_TYPED,vegobjektURI,$($(loop_fetchdata_WORKSPACE_NAME)_VEGOBJEKTURI),UTF8, FEATURE_TYPE)"
 # -------------------------------------------------------------------------
 FACTORY_DEF * HTTPFactory    FACTORY_NAME $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher       INPUT  FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_Input"    TARGET_URL @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>vegobjektURI<closeparen>,$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher)    SAVE_FILE No    OUTPUT_FILENAME "<Unused>"    TARGET_ATTR "_url_contents"    HTTP_METHOD GET    REQUEST_HEADER @EvaluateExpression(FDIV,STRING_ENCODED,Accept:<space>application<solidus>vnd.vegvesen.nvdb-v3-rev1+xml<lf>X-Client:<space>FME<space>http<space>caller<lf>X-Kontaktperson:<space>jan.kristian.jensen<at>vegvesen.no,$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher)    AUTH_METHOD Basic    SINGLE_SIGN_ON No    PROXY_AUTH_METHOD Basic    TARGET_ATTRIBUTE_ENCODING    RESPONSE_HEADER_LIST_ATTR "_headers"    STATUS_CODE_ATTR "_http_status_code"    ERROR_ATTR "_error"    FOLLOW_REDIRECTS Yes    VERIFY_SSL_CERTIFICATES Yes    USE_COOKIES No    OUTPUT OUTPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_OUTPUT"    OUTPUT REJECTED FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_<REJECTED>"
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher <REJECTED> Splitter"   INPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_<REJECTED>"   OUTPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_<REJECTED>_0_gp+TSuJ7tT0="   OUTPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_<REJECTED>_1_s08356TgVtg="
@@ -2664,24 +2649,24 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(loop_fetchdata_WORKSPACE_NAME)_HTTPFe
 # Note that we don't call the ThinPointCloud function directly, but rather
 # do it through TCL. This should allow this transformer to be used with a
 # Desktop license, even though ThinPointCloud requires Professional.
-Tcl2 proc $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5722_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected____PointCloudThinner    INPUT FEATURE_TYPE $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected____PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5722_thinPointCloud")
-Tcl2 proc $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5722_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__RasterSetterUpper    INPUT FEATURE_TYPE $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected____RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5722_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
+Tcl2 proc $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5723_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected____PointCloudThinner    INPUT FEATURE_TYPE $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected____PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5723_thinPointCloud")
+Tcl2 proc $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5723_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__RasterSetterUpper    INPUT FEATURE_TYPE $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected____RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5723_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
 # Now route all the features into the recorder, changing their
 # feature type to the transformer name so that they view nicely
-# $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5722_VIS_FEAT_TYPE changes the feature types
+# $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5723_VIS_FEAT_TYPE changes the feature types
 # of the features being visualized.
-DEFAULT_MACRO $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5722_VIS_FEAT_TYPE $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected_$(CATMAC)
+DEFAULT_MACRO $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5723_VIS_FEAT_TYPE $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected_$(CATMAC)
 DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
 DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # [PR#45549] The Data Inspector will limit the maximum number of features
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($($(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5722_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA vegobjektURI,varchar<openparen>200<closeparen>,_error,buffer,_http_status_code,buffer,_url_contents,buffer    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-FACTORY_DEF * BranchingFactory   TARGET_FACTORY "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_Input1637005298 Input Splitter"   FACTORY_NAME "Loop to $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_Input1637005298 Input Splitter"   MAXIMUM_COUNT -1   INPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_AttributeCreator_4_OUTPUT"   OUTPUT PASSED FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_Input"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(loop_fetchdata_WORKSPACE_NAME)_Tester_Passed1637005298 Output Collector"   INPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_Tester_PASSED_0_fHpls1W5bNw="   OUTPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_Tester_Passed"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(loop_fetchdata_WORKSPACE_NAME)_Tester_Failed1637005298 Output Collector"   INPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_<REJECTED>_1_s08356TgVtg="   INPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_Tester_FAILED"   OUTPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_Tester_Failed"
+FACTORY_DEF * RecorderFactory    FACTORY_NAME $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($($(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher__Rejected__697b3495_640d_4acd_8e3b_a1930136a5723_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA vegobjektURI,varchar<openparen>200<closeparen>,_error,buffer,_http_status_code,buffer,_url_contents,buffer    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * BranchingFactory   TARGET_FACTORY "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_Input1637056559 Input Splitter"   FACTORY_NAME "Loop to $(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_Input1637056559 Input Splitter"   MAXIMUM_COUNT -1   INPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_AttributeCreator_4_OUTPUT"   OUTPUT PASSED FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(loop_fetchdata_WORKSPACE_NAME)_Tester_Passed1637056559 Output Collector"   INPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_Tester_PASSED_0_fHpls1W5bNw="   OUTPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_Tester_Passed"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(loop_fetchdata_WORKSPACE_NAME)_Tester_Failed1637056559 Output Collector"   INPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_HTTPFetcher_<REJECTED>_1_s08356TgVtg="   INPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_Tester_FAILED"   OUTPUT FEATURE_TYPE "$(loop_fetchdata_WORKSPACE_NAME)_Tester_Failed"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(loop_fetchdata_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "loop_fetchdata Tester_Failed Output Renamer/Nuker"   INPUT FEATURE_TYPE loop_fetchdata_Tester_Failed   OUTPUT FEATURE_TYPE loop_fetchdata_Tester_Failed
 FACTORY_DEF * TeeFactory   FACTORY_NAME "loop_fetchdata Tester_Passed Output Renamer/Nuker"   INPUT FEATURE_TYPE loop_fetchdata_Tester_Passed   OUTPUT FEATURE_TYPE loop_fetchdata_Tester_Passed
@@ -2695,7 +2680,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME Tester_5    INPUT  FEATURE_TYPE XMLFea
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Ugyldig_stedfesting (Disabled) Nuker"   INPUT FEATURE_TYPE Tester_5_FAILED
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_6    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Tester_5_PASSED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "koordsys" "SET_TO" "epsg:<at>Value<openparen>srid<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_6    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Tester_5_PASSED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "koordsys" "SET_TO" "EPSG:<at>Value<openparen>srid<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME CoordinateSystemSetter    INPUT  FEATURE_TYPE AttributeCreator_6_OUTPUT    OUTPUT FEATURE_TYPE CoordinateSystemSetter_OUTPUT         @CoordSys("@EvaluateExpression(FDIV,STRING,<at>Value<openparen>koordsys<closeparen>,CoordinateSystemSetter)")
 # -------------------------------------------------------------------------
