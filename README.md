@@ -4,7 +4,7 @@ Sample FME workspaces to fetch objects from [NVDB api v3](https://nvdbapiles-v3.
 
 Made with FME desktop 2020.1.2.1, all later versions should work. 
 
-Modifying these workspace to fetch other object types is straightforward, but the property names must be explisit defined (or exposed) in an attributeCreator transformer (or attribute Exposer, if you prefer). With over 360 object types defined in NVDB data catalogue, this handiwork could become very boring and tedious very quickly. 
+Modifying these workspace to fetch other object types is straightforward, but the property names must be explisit defined (or exposed) in an attributeCreator transformer (or attribute Exposer, if you prefer). With over 360 object types defined in [NVDB data catalogue](https://datakatalogen.vegdata.no/), this handiwork works very well for ad-hoc needs, but will become somewhat tedious if you want to download a large number of different feature types - not to ignore that you'd need to manually scrutinize for changes to the NVDB data catalogue and make appropriate manual adjustments. Generic, schema-driven solutions (derived from either [GML schemas](https://github.com/vegvesen/NVDB-Datakatalogen/tree/master/GML) or from [/vegobjekter - endpoint of NVDB api LES](https://nvdbapiles-v3.atlas.vegvesen.no/dokumentasjon/openapi/#/Datakatalog/get_vegobjekttyper) ) would be highly preferable. Pull requests with such solutions are welcome. 
 
 Please note that the location of the xfsmap definition file (`xfmapDefintion_nvdbapi2fme_V3.xml`) in the XMLFeatureReader transformer must be adjusted to match your local file system. In most cases, it should work straight out of the box - if not, just pop open the "point at file" dialog, click on the file and hit OK.
 
