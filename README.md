@@ -1,20 +1,38 @@
-NVDB api V3 with FME
+Hent data fra NVDB api V3 med FME
 ===============
-Sample FME workspaces to fetch objects from [NVDB api v3](https://nvdbapiles-v3.atlas.vegvesen.no/dokumentasjon/). 
+Noen FME workspace-eksempler for å hente data fra [NVDB api v3 LEs](https://nvdbapiles-v3.atlas.vegvesen.no/dokumentasjon/). 
 
-Made with FME desktop 2020.1.2.1, all later versions should work. 
+Laget med FME desktop 2020.1.2.1, alt nyere enn det skulle funke fint. 
 
-Modifying these workspace to fetch other object types is straightforward, but the property names must be explisit defined (or exposed) in an attributeCreator transformer (or attribute Exposer, if you prefer). With over 360 object types defined in [NVDB data catalogue](https://datakatalogen.vegdata.no/), this handiwork works very well for ad-hoc needs, but will become somewhat tedious if you want to download a large number of different feature types - not to ignore that you'd need to manually scrutinize for changes to the NVDB data catalogue and make appropriate manual adjustments. Generic, schema-driven solutions (derived from either [GML schemas](https://github.com/vegvesen/NVDB-Datakatalogen/tree/master/GML) or from [/vegobjekter - endpoint of NVDB api LES](https://nvdbapiles-v3.atlas.vegvesen.no/dokumentasjon/openapi/#/Datakatalog/get_vegobjekttyper) ) would be highly preferable. Pull requests with such solutions are welcome. 
+Når du modifiserer disse workspacene for å bli bedre tilpasset dine behov så må du endre både objekttype (`published parameter = objektTypeID`) og eksplisitt definere hvilke egenskapsverdier som du skal ha med ved å editere den fremhevede `attributeCreator`. Her må du manuelt legge til egenskapsnavn for de egenskapene som er mulige for denne objekttypen. Egenskapsnavnene (og hva de betyr) finner du i [NVDB datakatalog](https://datakatalogen.vegdata.no/)
 
-Please note that the location of the xfsmap definition file (`xfmapDefintion_nvdbapi2fme_V3.xml`) in the XMLFeatureReader transformer must be adjusted to match your local file system. In most cases, it should work straight out of the box - if not, just pop open the "point at file" dialog, click on the file and hit OK.
+> Å editere egenskapsnavn manuelt på denne måten funker helt fint for ad-hoc oppgaver, men du trøtner fort om du skal laste ned et stort antall objekttyper. 
+> For å ikke å snakke om vedlikeholdsbehovet når det skjer datakatalogendringer. For eksempel et navnebytte er nok til at du ikke lenger får lastet inn den 
+> egenskapsverdien i workspace. 
+> 
+> Ideelt sett hadde vi hatt en datakatalogdrevet skjemadefinisjon, enten fra [GML schemas](https://github.com/vegvesen/NVDB-Datakatalogen/tree/master/GML) 
+> eller ved å bruke [/vegobjekter - endepunktet til NVDB api LES](https://nvdbapiles-v3.atlas.vegvesen.no/dokumentasjon/openapi/#/Datakatalog/get_vegobjekttyper). 
+> Gode idéer og andre bidrag mottas med takk, gjerne i form av pull requests med nye workspace-eksempler.  
+
+# Tips og tricks 
+
+I workspace har vi tilrettelagt to dataflyter, med sine styrker og svakheter. 
+  * En flyt som behandler **hele NVDB-objektet samlet**. Denne egner seg best for fysisk vegutstyr som rekkverk, men det finnes også en del andre brukstilfeller der det er gunstig med en feature per NVDB objekt
+  * En flyt som **deler opp objektene i individuelle vegsegmenter**. Dette vil som regel være en naturlig arbeidsflyt for abstrakte data som fartsgrenser og bruksklasse, men kan også passe hvis man for eksempel skal se på overlapp langs vegnettet for fysisk vegutstyr _(for eksempel rekkverk og fartsgrenser - rekkverk har jo som regel egengeometri til siden for vegkanten, mens fartsgrenser er limt oppå senterlinja. Ved å bruke vegsegmenter-arbeidsflyten kan man finne felles overlapp langs senterlinja)_. Hvert vegsegment har detaljer om stedfesting og vegsystemreferanse, og ett NVDB objekt er da komponert av ett eller flere vegsegmenter. 
+
+Det kan hende at du må riste litt før workspace ditt klarer finne `xfsmap`-definisjonsfila (`xfmapDefintion_nvdbapi2fme_V3.xml`) i  `XMLFeatureReader`-transformeren 
+(den som er markert med _"this is where the magic happens"_  ). 
+Ideelt sett finner FME xfsmap-fila av seg selv fordi den ligger i samme mappen, men det kan hende du må peke på den manuelt på ditt filsystem. 
+Kjør først workspace, og hvis det tryner så åpner du   "pek-på-xfsmap-fil" dialogen.
 
 ![Locate xfmapfile in XML Feature M](/images/locate_xfmapfile.PNG)
  
+
 # nvdbapi_v3_bruksklasse.fmw
 
-Sample workspace, fetching NVDB data for  [904 Bruksklasse normaltransport](https://datakatalogen.vegdata.no/904-Bruksklasse,%20normaltransport) the municipality of Skaun, Trøndelag. 
+Eksempel workspace som henter  [904 Bruksklasse normaltransport](https://datakatalogen.vegdata.no/904-Bruksklasse,%20normaltransport) for Skaun kommune, Trøndelag. 
 
-# nvdbapi_v3_trafikkmengde - historical data
+# nvdbapi_v3_trafikkmengde - historiske data
 
-Fetching NVDB data for  [540 trafikkmengde](https://datakatalogen.vegdata.no/540-Trafikkmengde) for the municipality of Arendal, Agder, for the date (`tidspunkt=2019-04-01`), as well as today's values. 
+Henter NVDB data for  [540 trafikkmengde](https://datakatalogen.vegdata.no/540-Trafikkmengde) for Arendal kommune, Agder, for datoen  (`tidspunkt=2019-04-01`), i tillegg til dagens dataverdier. 
 
